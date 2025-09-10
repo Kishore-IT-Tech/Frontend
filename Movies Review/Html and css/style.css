@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+  color: white;
+  padding: 15px 50px;
+}
+
+.logo {
+  font-size: 22px;   
+  font-weight: 600;      
+  cursor: pointer;
+}
+
+nav a {
+  margin: 0 15px;    
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: gold;
+}
+
+.search-container {
+  position: relative; 
+  margin-left: 400px;  
+}
+
+.search-container input {
+  padding: 8px 35px 8px 12px;
+  border-radius: 20px;
+  border: none;
+  outline: none;     
+}
+
+.search-container i {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: gray;
+  cursor: pointer;
+}
+
+.register-btn {
+  background: gold;
+  color: black;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-left:10px ;
+}
+
+.register-btn:hover {
+  background: orange;
+}
+.mainhead{
+  margin: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+.gridlayout{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: auto;
+  margin-left: 20px;
+  background-color:white;
+}
+title{
+  font-family: 'Poppins', sans-serif;
+}
+/* main{
+  display: grid;
+  grid-template-columns:1000px repeat(4,1fr);
+  grid-template-rows: auto;
+} */
+.card:hover {
+  transform: scale(1.05) translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+.card {
+      display: grid;
+      grid : column;
+      width: 300px;
+      background: #f2f2f2;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin-top: 20px;
+      
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .title {
+      font-size: 18px;
+      font-weight: bold;
+      color: #262626;
+    }
+
+    .tag {
+      font-size: 12px;
+      background: #ddd;
+      /* color: #333; */
+      padding: 2px 6px;
+      border-radius: 5px;
+      display: inline-block;
+     } 
+
+    .score-box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgb(221, 214, 175);
+      padding: 10px;
+      border-radius: 8px;
+    }
+
+    .score-box h4 {
+      margin: 0;
+      color: #2a7f73;
+      font-size: 14px;
+    }
+
+    .score {
+      background: #36c2a6;
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      padding: 10px 14px;
+      border-radius: 8px;
+    }
